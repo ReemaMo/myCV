@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reema | Resume</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+      color: white;
+      line-height: 1.6;
+      background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1950&q=80');
+      background-size: cover;
+      background-attachment: fixed;
+    }
+
+    header {
+      text-align: center;
+      padding: 100px 20px 50px;
+      background: rgba(0, 0, 0, 0.5);
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 15px;
+    }
+
+    header p {
+      font-size: 1.2em;
+      opacity: 0.9;
+    }
+
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.7);
+      padding: 10px 0;
+      z-index: 1000;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #00d4ff;
+    }
+
+    section {
+      padding: 80px 20px;
+      background: rgba(0, 0, 0, 0.6);
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 40px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      background: rgba(0, 0, 0, 0.8);
+    }
+
+    .langs {
+      margin-top: 20px;
+      text-align: center;
+      font-size: 0.9em;
+      color: #ccc;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="#about">About / من أنا</a>
+    <a href="#experience">Experience / خبراتي</a>
+    <a href="#contact">Contact / التواصل</a>
+  </nav>
+
+  <header>
+    <h1>Reema</h1>
+    <p>A passionate learner & creative thinker | متعلمة بشغف ومبدعة</p>
+  </header>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me / من أنا</h2>
+      <p>
+        أنا ريما، مطورة ويب ومهتمة بتقنيات البرمجة الحديثة. أحب التعلم المستمر ومشاركة المعرفة.
+        لدي خلفية في تطوير المواقع والتصميم الإبداعي.
+      </p>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="container">
+      <h2>My Experience & Projects / خبراتي ومشاريعي</h2>
+      <ul>
+        <li>بناء مواقع ويب باستخدام HTML, CSS, JavaScript</li>
+        <li>مشاركة في مشاريع جامعية بتقنيات الذكاء الاصطناعي</li>
+        <li>تصميم واجهات مستخدم متجاوبة</li>
+        <li>إنشاء Chatbot باستخدام منصات مثل Chatbase</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me / تواصل معي</h2>
+      <p>Email: reema@example.com</p>
+      <p>GitHub: github.com/reema</p>
+      <p>LinkedIn: linkedin.com/in/reema</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Reema. All rights reserved.</p>
+    <div class="langs">This page is available in English and Arabic.</div>
+  </footer>
+
+</body>
+</html>
